@@ -354,7 +354,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
-    color: #0c0c0e;
+    background: #fff;
+    color: #03358f;
 }
 
 body.md-skin-dark {
@@ -580,10 +581,12 @@ mark, .mark {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 10px;
+    color: #03358f !important;
 }
 
 .service__text {
     font-size: 14px;
+    color: #03358f !important;
 }
 
 .service-wrapper {
@@ -620,6 +623,7 @@ mark, .mark {
     background-repeat: no-repeat;
     background-position: center center;
     z-index: 9;
+    background: #fff !important;
 }
 
 .hero:after {
@@ -632,6 +636,7 @@ mark, .mark {
     background-color: #000;
     opacity: .5;
     z-index: -1;
+    display: none !important;
 }
 
 .hero.no-overlay:after {
@@ -670,7 +675,7 @@ mark, .mark {
 .hero__title {
     font-size: 30px;
     font-weight: 300;
-    color: #fff;
+    color: #03358f !important;
 }
 
 @media (min-width: 320px) {
@@ -1982,7 +1987,7 @@ mark, .mark {
     display: table;
     width: 100%;
     margin: 20px 0;
-    color: #c2c2c2;
+    color: #03358f !important;
 }
 
 .countdown__module p {
@@ -2014,7 +2019,7 @@ mark, .mark {
     font-size: 30px;
     font-weight: 300;
     line-height: 1;
-    color: #fff;
+    color: #03358f !important;
     margin-bottom: 10px;
 }
 
